@@ -31,10 +31,12 @@
     <title>Snack-1</title>
 </head>
 <body>
-    <?php 
-    foreach($games as $game){
-        echo $game['homeTeam'] . '-' . $game['awayTeam'] . '|' . $game['homeTeamScore'] .'-' . $game['awayTeamScore'] . '<br />';
-    }
-    ?>  
+    <div class="container">
+        <?php 
+        foreach($games as $game){
+            echo $game['homeTeam'] . '-' . $game['awayTeam'] . '|' . $game['homeTeamScore'] .'-' . $game['awayTeamScore'] . '<br />';
+        }
+        ?> 
+    </div>
 </body>
 </html>
