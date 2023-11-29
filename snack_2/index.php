@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="accesso.php">
+        <form action="accesso.php" method="GET">
             <div class="mb-3">
                 <input type="text" class="form-control" id="name" name="name" placeholder="Name">
             </div>
